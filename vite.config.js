@@ -5,5 +5,5 @@ export default defineConfig({
   plugins: [react()],
   // Relative asset paths make the build work both at username.github.io
   // and at username.github.io/repository-name/.
-  base: './',
+  base: '/SWING/',
 })
