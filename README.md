@@ -99,3 +99,17 @@ baseurl: "/swing-archive"
 ```
 
 으로 변경하세요.
+
+
+## 상단 네비게이션
+
+모든 페이지에서 공통으로 아래 메뉴가 표시됩니다.
+
+- SWING Archive → 홈
+- About SWING
+- About 랩실막내들
+- Interview
+- Agentic AI Summit
+
+상단 메뉴 내용은 `_includes/header.html`,
+크기/간격/색상은 `assets/css/style.css`에서 수정합니다.
