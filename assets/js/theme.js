@@ -1,4 +1,3 @@
-\
 (() => {
   const root = document.documentElement;
   const button = document.querySelector('.theme-toggle');
