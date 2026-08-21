@@ -1,0 +1,23 @@
+- name: "이름을 입력하세요 1"
+  school: "숙명여자대학교"
+  major: "소프트웨어학부"
+  linkedin: "#"
+  image: "/assets/images/team/member-1.svg"
+
+- name: "이름을 입력하세요 2"
+  school: "숙명여자대학교"
+  major: "소프트웨어학부"
+  linkedin: "#"
+  image: "/assets/images/team/member-2.svg"
+
+- name: "이름을 입력하세요 3"
+  school: "숙명여자대학교"
+  major: "소프트웨어학부"
+  linkedin: "#"
+  image: "/assets/images/team/member-3.svg"
+
+- name: "이름을 입력하세요 4"
+  school: "숙명여자대학교"
+  major: "소프트웨어학부"
+  linkedin: "#"
+  image: "/assets/images/team/member-4.svg"

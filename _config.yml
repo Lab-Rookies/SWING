@@ -1,0 +1,14 @@
+title: SWING Archive
+description: 랩실막내들이 기록한 2026 SWING 실리콘밸리 아카이브
+url: "https://lab-rookies.github.io"
+baseurl: "/SWING"
+lang: ko-KR
+timezone: Asia/Seoul
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
