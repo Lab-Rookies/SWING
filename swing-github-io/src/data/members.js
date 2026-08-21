@@ -1,0 +1,38 @@
+export const members = [
+  {
+    name: '임소정',
+    initials: 'SJ',
+    school: '숙명여자대학교',
+    major: '소프트웨어융합전공',
+    linkedin: 'https://www.linkedin.com/in/sojeong-lim-080658410/',
+    image: './members/sojeong.jpg',
+    accent: 'pink',
+  },
+  {
+    name: '원지우',
+    initials: 'JW',
+    school: '숙명여자대학교',
+    major: '데이터사이언스전공',
+    linkedin: 'https://www.linkedin.com/in/jiu-won-420837342/',
+    image: './members/jiu.jpg',
+    accent: 'purple',
+  },
+  {
+    name: '김수빈',
+    initials: 'SK',
+    school: '숙명여자대학교',
+    major: '데이터사이언스전공',
+    linkedin: 'https://www.linkedin.com/in/subin-kim-b6524033b/',
+    image: './members/subin.jpg',
+    accent: 'sky',
+  },
+  {
+    name: '하예영',
+    initials: 'YH',
+    school: '숙명여자대학교',
+    major: '데이터사이언스전공',
+    linkedin: 'https://www.linkedin.com/in/yeyoung-ha-2b587b328/',
+    image: './members/yeyoung.jpg',
+    accent: 'blue',
+  },
+]
