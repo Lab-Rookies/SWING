@@ -1,4 +1,3 @@
-import { ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
@@ -18,10 +17,10 @@ export default function Home() {
         </p>
         <div className="hero-actions">
           <Link className="button button-primary" to="/interviews">
-            Interview Archive <ArrowRight size={18} />
+            Interview Archive
           </Link>
-          <Link className="button button-ghost" to="/about-swing">
-            About SWING
+          <Link className="button button-ghost" to="/summit">
+            Agentic AI Summit
           </Link>
         </div>
       </div>

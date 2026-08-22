@@ -841,6 +841,27 @@ strong {
   background: var(--primary);
 }
 
+.markdown-article .about-highlight {
+  margin: 34px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.35em;
+  color: var(--heading);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.55;
+  letter-spacing: -0.025em;
+}
+
+.markdown-article .about-highlight::after {
+  content: none;
+}
+
+.about-highlight > span {
+  flex: 0 0 auto;
+  color: var(--heading);
+}
+
 .markdown-article h3 {
   margin: 46px 0 17px;
   color: var(--heading);
@@ -1119,6 +1140,12 @@ strong {
   .markdown-article .article-h1 {
     margin-top: 54px;
     font-size: 24px;
+  }
+
+  .markdown-article .about-highlight {
+    margin: 28px 0;
+    font-size: 22px;
+    line-height: 1.6;
   }
 
   .markdown-article h3 {

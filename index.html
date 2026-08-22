@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#23283e" />
+    <script>
+      (() => {
+        let initialTheme = 'dark'
+        try {
+          if (localStorage.getItem('swing-theme') === 'light') initialTheme = 'light'
+        } catch {}
+        document.documentElement.dataset.theme = initialTheme
+        document.querySelector('meta[name="theme-color"]').content = initialTheme === 'dark' ? '#23283e' : '#fcfcfc'
+      })()
+    </script>
     <meta
       name="description"
       content="숙명여자대학교 랩실막내들의 2026 SWING Silicon Valley Archive"

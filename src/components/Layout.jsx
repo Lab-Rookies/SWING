@@ -14,7 +14,7 @@ export default function Layout() {
   const [theme, setTheme] = useState(() => {
     const savedTheme = window.localStorage.getItem('swing-theme')
     if (savedTheme === 'dark' || savedTheme === 'light') return savedTheme
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+    return 'dark'
   })
   const location = useLocation()
 
