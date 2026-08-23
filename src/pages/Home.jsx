@@ -8,7 +8,7 @@ export default function Home() {
         <h1>
           Hi, We are
           <br />
-          <span>랩실막내들.</span>
+          <span>랩실막내들</span>
         </h1>
         <p className="hero-description">
           숙명여자대학교 소프트웨어학부 소속 학생들로,
@@ -19,7 +19,7 @@ export default function Home() {
           <Link className="button button-primary" to="/interviews">
             Interview Archive
           </Link>
-          <Link className="button button-ghost" to="/summit">
+          <Link className="button button-primary" to="/summit">
             Agentic AI Summit
           </Link>
         </div>

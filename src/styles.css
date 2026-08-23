@@ -122,10 +122,6 @@ strong {
   letter-spacing: -0.035em;
 }
 
-.brand-copy strong span {
-  color: var(--primary);
-}
-
 .brand-copy small {
   margin-top: 6px;
   color: var(--fg);
@@ -842,15 +838,15 @@ strong {
 }
 
 .markdown-article .about-highlight {
-  margin: 34px 0;
+  margin: 14px 0;
   display: flex;
   align-items: baseline;
   gap: 0.35em;
   color: var(--heading);
-  font-size: 26px;
+  font-size: 15px;
   font-weight: 500;
-  line-height: 1.55;
-  letter-spacing: -0.025em;
+  line-height: 2;
+  letter-spacing: -0.005em;
 }
 
 .markdown-article .about-highlight::after {
@@ -1143,9 +1139,9 @@ strong {
   }
 
   .markdown-article .about-highlight {
-    margin: 28px 0;
-    font-size: 22px;
-    line-height: 1.6;
+    margin: 14px 0;
+    font-size: 14px;
+    line-height: 1.95;
   }
 
   .markdown-article h3 {

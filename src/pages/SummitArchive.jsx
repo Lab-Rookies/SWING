@@ -10,7 +10,7 @@ export default function SummitArchive() {
       <PageHero
         eyebrow="AGENTIC AI SUMMIT"
         title="Agentic AI Summit Archive"
-        description="Agentic AI Summit에서 들은 네 개의 세션을 주제별로 정리한 아카이브입니다."
+        description="Agentic AI Summit에서 들은 주요 세션을 주제별로 정리한 아카이브입니다."
       />
 
       <section className="archive-grid summit-grid">

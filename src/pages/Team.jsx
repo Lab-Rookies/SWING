@@ -29,14 +29,14 @@ export default function Team() {
       <PageHero
         eyebrow="ABOUT THE TEAM"
         title="About 랩실막내들"
-        description="숙명여자대학교 소프트웨어학부에서 함께 연구하고, 함께 실리콘밸리를 경험한 네 명의 팀원입니다."
+        description="함께 실리콘밸리를 경험한 네 명의 팀원입니다."
       />
 
       <section className="team-grid">
         {members.map((member) => (
           <article className="member-card" key={member.name}>
             <MemberAvatar member={member} />
-            <p className={`member-position text-${member.accent}`}>SWING 2026</p>
+            <p className={`member-position text-${member.accent}`}>랩실막내들</p>
             <h2>{member.name}</h2>
             <p className="member-school">{member.school}</p>
             <p className="member-major">{member.major}</p>
@@ -54,9 +54,6 @@ export default function Team() {
         ))}
       </section>
 
-      <p className="photo-note">
-        팀원 사진은 <code>public/members</code> 폴더에 지정된 파일명으로 넣으면 자동으로 표시됩니다.
-      </p>
     </>
   )
 }

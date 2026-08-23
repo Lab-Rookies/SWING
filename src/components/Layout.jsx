@@ -36,7 +36,7 @@ export default function Layout() {
       <header className="site-header">
         <Link className="brand" to="/" aria-label="랩실막내들 홈">
           <span className="brand-copy">
-            <strong>랩실막내들<span>.</span></strong>
+            <strong>랩실막내들</strong>
             <small>SWING Archive</small>
           </span>
         </Link>

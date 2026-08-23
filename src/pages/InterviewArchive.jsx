@@ -10,7 +10,7 @@ export default function InterviewArchive() {
       <PageHero
         eyebrow="PEOPLE WE MET"
         title="Interview Archive"
-        description="실리콘밸리에서 만난 연구자, 엔지니어, 정책 전문가, 창업가의 이야기를 직무별 아카이브로 정리했습니다."
+        description="실리콘밸리에서 만난 여러 현직자들의 이야기를 정리한 아카이브입니다."
       />
 
       <section className="archive-grid">

@@ -36,6 +36,15 @@ function prepareArticle(text) {
     (line, index) => index > aboutIndex && /^\s*---+\s*$/.test(line),
   )
   const introEndIndex = dividerIndex === -1 ? lines.length : dividerIndex
+  const aboutIntroIndex = lines.findIndex(
+    (line, index) => index > aboutIndex
+      && index < introEndIndex
+      && /^\s*한줄\s*(?:소개|멘트)\s*[:：]/.test(line),
+  )
+
+  if (aboutIntroIndex !== -1) {
+    lines[aboutIntroIndex] = ''
+  }
 
   // A few source entries omit the space after `#`. Normalize only the About
   // highlights so all ten interview pages render them consistently.

@@ -13,7 +13,7 @@ export default function AboutSwing() {
         <div className="prose-lead">
           <span className="large-initial">S</span>
           <p>
-            <strong>SWING (SoftWare for International Network and Growth)</strong>은 숙명여자대학교 SW중심대학사업단에서 운영하는 글로벌 해외 프로그램으로, 학생들이 세계적인 기술 혁신의 중심지인 <strong>실리콘밸리</strong>를 직접 경험하며 글로벌 SW 역량과 진로 방향성을 확장할 수 있도록 마련된 프로그램입니다.
+            <strong>SWING</strong> (<strong>S</strong>oft<strong>W</strong>are for <strong>I</strong>nternational <strong>N</strong>etwork and <strong>G</strong>rowth)은 숙명여자대학교 SW중심대학사업단에서 운영하는 글로벌 해외 프로그램으로, 학생들이 세계적인 기술 혁신의 중심지인 <strong>실리콘밸리</strong>를 직접 경험하며 글로벌 SW 역량과 진로 방향성을 확장할 수 있도록 마련된 프로그램입니다.
           </p>
         </div>
 
