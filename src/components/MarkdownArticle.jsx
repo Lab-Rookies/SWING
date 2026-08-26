@@ -28,9 +28,17 @@ function formatXaiTakeaways(text) {
 function prepareArticle(text) {
   const content = formatXaiTakeaways(removeSourceTitle(text))
   const lines = content.split('\n')
-  const aboutIndex = lines.findIndex((line) => /^#\s+About\s*$/.test(line.trim()))
+  let aboutIndex = lines.findIndex((line) => /^#\s+About\s*$/.test(line.trim()))
 
   if (aboutIndex === -1) return { content, aboutStart: -1, introEnd: -1 }
+
+  // Some source entries repeat the interviewee's role between the page header
+  // and About. The page header already shows it, so always begin the article
+  // at About.
+  if (aboutIndex > 0) {
+    lines.splice(0, aboutIndex)
+    aboutIndex = 0
+  }
 
   const dividerIndex = lines.findIndex(
     (line, index) => index > aboutIndex && /^\s*---+\s*$/.test(line),

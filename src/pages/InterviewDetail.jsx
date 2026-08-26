@@ -17,6 +17,9 @@ export default function InterviewDetail() {
         eyebrow={`${item.company} · ${item.role}`}
         title={item.title}
         summary={item.summary}
+        image={item.image ? `${import.meta.env.BASE_URL}${item.image}` : undefined}
+        imageAlt={`${item.company} ${item.role} 인터뷰이`}
+        imageCaption={item.displayName}
       />
       <MarkdownArticle content={item.content} />
     </div>

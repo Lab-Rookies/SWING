@@ -809,6 +809,28 @@ strong {
   background: var(--primary);
 }
 
+.article-interviewee {
+  margin-top: 42px;
+  text-align: center;
+}
+
+.article-interviewee-image {
+  display: block;
+  width: clamp(180px, 24vw, 240px);
+  aspect-ratio: 1;
+  margin-inline: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.article-interviewee p {
+  margin: 14px 0 0;
+  color: var(--fg);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
 .markdown-article {
   padding-bottom: 28px;
 }
@@ -1130,6 +1152,18 @@ strong {
 
   .article-header-copy > p:last-child {
     font-size: 14px;
+  }
+
+  .article-interviewee {
+    margin-top: 34px;
+  }
+
+  .article-interviewee-image {
+    width: 180px;
+  }
+
+  .article-interviewee p {
+    font-size: 16px;
   }
 
   .markdown-article h2,
