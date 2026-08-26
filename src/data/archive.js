@@ -3,7 +3,7 @@
 
 export const interviews = [
   {
-    "slug": "apple-data-engineer",
+    "slug": "siliccon-valley-data-engineer",
     "title": "@ 실리콘밸리 글로벌 빅테크 기업의 Data Engineer",
     "company": "실리콘밸리 글로벌 빅테크 기업",
     "role": "Data Engineer",
